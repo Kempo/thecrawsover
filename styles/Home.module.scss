@@ -1,0 +1,66 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+}
+
+.main {
+  text-align: center;
+  padding: 2.5rem 0;
+
+  .gallery {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .info {
+      margin-bottom: 24px;
+    }
+
+    .maps {
+      max-width: 700px;
+      width: 100%;
+      height: 400px;
+
+      .embed {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.footer {
+  padding: 32px 0px 16px 0px;
+
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      margin: 0px 8px;
+    }
+  }
+
+  p {
+    display: block;
+    color: #CCC;
+
+    a {
+      color: #CCC;
+    }
+  }
+}
