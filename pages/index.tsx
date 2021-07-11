@@ -15,6 +15,7 @@ export default function Home() {
         <meta name="twitter:site" content="@thecrawsover" />
         <meta name="twitter:title" content="The CrawsOver Pro-Am League" />
         <meta name="twitter:description" content="Games played at Seattle Pacific University featuring NBA and Overseas talent for Summer 2021. Free admission for everyone!" />
+        <meta name="twitter:image" content="https://pbs.twimg.com/media/E58199kUYAU_NV5?format=jpg&name=large" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className={styles.main}>
