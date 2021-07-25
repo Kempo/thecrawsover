@@ -27,7 +27,7 @@ export default function Home() {
             height={976}
           />
           <Image
-            src="https://pbs.twimg.com/media/E5uQNcEVoAMFg4p?format=jpg&name=medium"
+            src="https://pbs.twimg.com/media/E66hLXgUcAAw4Qi?format=jpg&name=large"
             alt="The CrawsOver Schedule"
             width={780}
             height={976}
@@ -56,7 +56,7 @@ export default function Home() {
           <a href="https://t.co/me5fBznzko?amp=1">Facebook</a>
           <a href="https://www.instagram.com/thecrawsover/">Instagram</a>
         </div>
-        <p>Last updated 07/11/21. Unofficial site by <a href="https://twitter.com/tweetsbychen">@tweetsbychen</a></p>
+        <p>Last updated 07/24/21. Unofficial site by <a href="https://twitter.com/tweetsbychen">@tweetsbychen</a></p>
       </footer>
     </div>
   )
