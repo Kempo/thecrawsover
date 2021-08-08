@@ -48,6 +48,21 @@ export default function Home() {
             <iframe className={styles.embed} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.713167518666!2d-122.36278834892825!3d47.65114047908551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015a7d112f3d9%3A0x1149b3c2a3c003e7!2sRoyal%20Brougham%20Pavilion!5e0!3m2!1sen!2sus!4v1626027381164!5m2!1sen!2sus" frameBorder={0} loading="lazy"></iframe>
           </div>
         </div>
+        <div className={styles.updates}>
+          <h1>Updates</h1>
+          <h3>8/8/21 - New Schedule</h3>
+          <div className={styles.update}>
+            <p>
+              <b>12 pm</b>: Special select game
+              <br />
+              <b>1:30 pm</b>: Real Ballers vs PNW Rain
+              <br />
+              <b>3 pm</b>: Washington’s finest vs The Unit
+              <br />
+              <b>4:30 pm</b>: WorldwideSM vs Dream Team
+            </p>
+          </div>
+        </div>
       </main>
 
       <footer className={styles.footer}>
@@ -56,7 +71,7 @@ export default function Home() {
           <a href="https://t.co/me5fBznzko?amp=1">Facebook</a>
           <a href="https://www.instagram.com/thecrawsover/">Instagram</a>
         </div>
-        <p>Last updated 07/24/21. Unofficial site by <a href="https://twitter.com/tweetsbychen">@tweetsbychen</a></p>
+        <p>Last updated 08/8/21. Unofficial site by <a href="https://twitter.com/tweetsbychen">@tweetsbychen</a></p>
       </footer>
     </div>
   )
