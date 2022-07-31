@@ -3,6 +3,13 @@
   padding: 0 0.5rem;
 }
 
+.highlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .admission {
   text-decoration: underline;
   letter-spacing: 2px;
