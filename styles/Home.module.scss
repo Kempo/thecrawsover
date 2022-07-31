@@ -8,6 +8,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .videos {
+    width: 100%;
+    max-width: 800px;
+
+    iframe {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
 }
 
 .admission {

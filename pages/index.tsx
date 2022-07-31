@@ -59,18 +59,21 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.updates}>
-          <h1>SPECIAL APPEARANCES</h1>
+          <h1>😤 SPECIAL APPEARANCES 😤</h1>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">🚨🚨BREAKING NEWS 🚨🚨 <a href="https://twitter.com/TheTraeYoung?ref_src=twsrc%5Etfw">@TheTraeYoung</a> <a href="https://twitter.com/DejounteMurray?ref_src=twsrc%5Etfw">@DejounteMurray</a> and John Collins will all be playing tomorrow and ready to put on a show for the city!!!!!! 🥶🥶🥶🥶 doors open at 11:45am at SPU. <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> <a href="https://t.co/Nlxa5iUicC">pic.twitter.com/Nlxa5iUicC</a></p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1553579946588585984?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">The <a href="https://twitter.com/TheNatural_05?ref_src=twsrc%5Etfw">@TheNatural_05</a> coming thru the pro am today to put on a show!!!!!</p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1553769890716139521?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote> 
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">History. <a href="https://twitter.com/JCrossover?ref_src=twsrc%5Etfw">@JCrossover</a> <a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a><br /><br />50 balls for <a href="https://twitter.com/Pp_doesit?ref_src=twsrc%5Etfw">@Pp_doesit</a> and <a href="https://twitter.com/Jmcdaniels7?ref_src=twsrc%5Etfw">@Jmcdaniels7</a> and 34/14/8 for <a href="https://twitter.com/ChetHolmgren?ref_src=twsrc%5Etfw">@ChetHolmgren</a> 💨 <a href="https://t.co/4wOur9iZ8n">pic.twitter.com/4wOur9iZ8n</a></p>&mdash; SHOWTIME Basketball (@shobasketball) <a href="https://twitter.com/shobasketball/status/1553530380916908033?ref_src=twsrc%5Etfw">July 30, 2022</a></blockquote>
         </div>
         <div className={styles.highlights}>
-          <h1>🔥 PAST HIGHLIGHTS 🔥</h1>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/g1BUvUxKw4c" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ug-Vy5vt77Q" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/q7QfBOTYKLA" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/0TNwtG8-Rhc" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <h1>🔥🔥 PAST HIGHLIGHTS 🔥🔥</h1>
+          <div className={styles.videos}>
+            <iframe width="95%" height="315" src="https://www.youtube.com/embed/g1BUvUxKw4c" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="95%" height="315" src="https://www.youtube.com/embed/Ug-Vy5vt77Q" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="95%" height="315" src="https://www.youtube.com/embed/q7QfBOTYKLA" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="95%" height="315" src="https://www.youtube.com/embed/0TNwtG8-Rhc" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
         </div>
+        <p style={{color: "#CCC", marginTop: 24 }}><i>The best summer basketball league in the United States.</i></p>
       </main>
       <footer className={styles.footer}>
         <div className={styles.links}>
@@ -78,7 +81,7 @@ export default function Home() {
           <a href="https://t.co/me5fBznzko?amp=1">Facebook</a>
           <a href="https://www.instagram.com/thecrawsover/">Instagram</a>
         </div>
-        <p>Site by <a href="https://twitter.com/tweetsbychen">@tweetsbychen</a></p>
+        <p>Website by <a href="https://twitter.com/tweetsbychen">@tweetsbychen</a></p>
       </footer>
     </div>
   )
