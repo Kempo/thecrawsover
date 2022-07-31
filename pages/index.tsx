@@ -47,6 +47,7 @@ export default function Home() {
           /> */}
         </div>
         <div className={styles.location}>
+          <h1 className={styles.admission}>FREE ADMISSION FOR EVERYONE.</h1>
           <div className={styles.info}>
             <h1>LOCATION</h1>
             <p>Doors open at 11:45AM. Street parking available.</p>
