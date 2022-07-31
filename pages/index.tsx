@@ -27,6 +27,12 @@ export default function Home() {
             width={780}
             height={976}
           />
+          <Image 
+            src="https://pbs.twimg.com/media/FX4Ff7YUIAEXmTg?format=jpg&name=large"
+            alt="The CrawsOver Roster"
+            width={780}
+            height={976}
+          />
           {/* <Image
             src="https://pbs.twimg.com/media/E58199kUYAU_NV5?format=jpg&name=large"
             alt="The CrawsOver Poster"
