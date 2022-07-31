@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
-import { TwitterTweetEmbed } from 'react-twitter-embed'
 
 export default function Home() {
   return (
@@ -50,6 +49,7 @@ export default function Home() {
         <div className={styles.location}>
           <div className={styles.info}>
             <h1>LOCATION</h1>
+            <p>Doors open at 11:45AM.</p>
             <a href="https://www.google.com/maps/place/Royal+Brougham+Pavilion/@47.6511405,-122.3627883,17z/data=!3m2!4b1!5s0x549015a7d8662cb5:0xe6a3ad0574e9365c!4m5!3m4!1s0x549015a7d112f3d9:0x1149b3c2a3c003e7!8m2!3d47.6511411!4d-122.3605821">Royal Brougham Pavilion at Seattle Pacific University <br /> (3414 3rd Ave W, Seattle, WA 98119)</a>
           </div>
           <div className={styles.maps}>
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.updates}>
-          <h1>PLAYER APPEARANCES</h1>
+          <h1>SPECIAL APPEARANCES</h1>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">🚨🚨BREAKING NEWS 🚨🚨 <a href="https://twitter.com/TheTraeYoung?ref_src=twsrc%5Etfw">@TheTraeYoung</a> <a href="https://twitter.com/DejounteMurray?ref_src=twsrc%5Etfw">@DejounteMurray</a> and John Collins will all be playing tomorrow and ready to put on a show for the city!!!!!! 🥶🥶🥶🥶 doors open at 11:45am at SPU. <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> <a href="https://t.co/Nlxa5iUicC">pic.twitter.com/Nlxa5iUicC</a></p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1553579946588585984?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">The <a href="https://twitter.com/TheNatural_05?ref_src=twsrc%5Etfw">@TheNatural_05</a> coming thru the pro am today to put on a show!!!!!</p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1553769890716139521?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote> 
         </div>
