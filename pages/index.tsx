@@ -55,6 +55,7 @@ export default function Home() {
         <div className={styles.location}>
           <h1 className={styles.admission}>🚨🚨 FREE ADMISSION FOR EVERYONE 🚨🚨</h1>
           <p>No outside food allowed. Food and drinks available in-house.</p>
+          <p>Check out the <a href="https://twitter.com/thecrawsover">Twitter</a> for live updates.</p>
           <div className={styles.info}>
             <h1>LOCATION</h1>
             <p>Doors open at 11:45AM. Street parking available.</p>
@@ -66,6 +67,8 @@ export default function Home() {
         </div>
         <div className={styles.updates}>
           <h1>😤 SPECIAL APPEARANCES 😤</h1>
+          <h2>Summer 2022</h2>
+          <blockquote className="twitter-tweet"><p lang="en" dir="ltr">First round pick of the 2022 NBA draft, Chicago bulls <a href="https://twitter.com/DalenTerry?ref_src=twsrc%5Etfw">@DalenTerry</a> will be <a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> this weekend to put on a show!</p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1557915199725637632?ref_src=twsrc%5Etfw">August 12, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">🚨🚨BREAKING NEWS 🚨🚨 <a href="https://twitter.com/TheTraeYoung?ref_src=twsrc%5Etfw">@TheTraeYoung</a> <a href="https://twitter.com/DejounteMurray?ref_src=twsrc%5Etfw">@DejounteMurray</a> and John Collins will all be playing tomorrow and ready to put on a show for the city!!!!!! 🥶🥶🥶🥶 doors open at 11:45am at SPU. <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> <a href="https://t.co/Nlxa5iUicC">pic.twitter.com/Nlxa5iUicC</a></p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1553579946588585984?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">The <a href="https://twitter.com/TheNatural_05?ref_src=twsrc%5Etfw">@TheNatural_05</a> coming thru the pro am today to put on a show!!!!!</p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1553769890716139521?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote> 
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">History. <a href="https://twitter.com/JCrossover?ref_src=twsrc%5Etfw">@JCrossover</a> <a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a><br /><br />50 balls for <a href="https://twitter.com/Pp_doesit?ref_src=twsrc%5Etfw">@Pp_doesit</a> and <a href="https://twitter.com/Jmcdaniels7?ref_src=twsrc%5Etfw">@Jmcdaniels7</a> and 34/14/8 for <a href="https://twitter.com/ChetHolmgren?ref_src=twsrc%5Etfw">@ChetHolmgren</a> 💨 <a href="https://t.co/4wOur9iZ8n">pic.twitter.com/4wOur9iZ8n</a></p>&mdash; SHOWTIME Basketball (@shobasketball) <a href="https://twitter.com/shobasketball/status/1553530380916908033?ref_src=twsrc%5Etfw">July 30, 2022</a></blockquote>
