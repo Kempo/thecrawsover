@@ -55,12 +55,14 @@ export default function Home() {
         <div className={styles.location}>
           <h1 className={styles.admission}>🚨🚨 8/20/22 SPECIAL GUEST ALERT 🚨🚨</h1>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">LeBron. <br />Dejounte. <br />Paolo. <br />Chet.<br />IT.<br />MarJon.<a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> is live tomorrow on <a href="https://t.co/Pqxh2EPubW">https://t.co/Pqxh2EPubW</a> and the NBA App 🎥</p>&mdash; NBA (@NBA) <a href="https://twitter.com/NBA/status/1560753432750866435?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
-          <h2>
+          <blockquote className="twitter-tweet"><p lang="en" dir="ltr">🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 I thought it was gonna be a movie… now it’s HISTORY!!!!!!!!!!!!!!!!!!!! This will be a day like we’ve NEVER SEEN <a href="https://twitter.com/KingJames?ref_src=twsrc%5Etfw">@KingJames</a> WILL BE PLAYING <a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> PRO AM!!!!!!!!!!! It’s O-V-E-R ‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️ <a href="https://t.co/wEmLW8zooq">pic.twitter.com/wEmLW8zooq</a></p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1560749034641375232?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
+          <h2 style={{ marginBottom: 0 }}>
             GAMES WILL BE STREAMED STARTING 5:30PM ET <a href="https://t.co/vZLRTFPigo">HERE</a>. 
           </h2>
+          <h2 style={{ marginBottom: 0 }}>
+            FREE FOR EVERYONE.
+          </h2>
           <p>
-            <b>FREE FOR EVERYONE.</b>
-            <br />
             No outside food allowed. Food and drinks available in-house.
           </p>
           <p>Check out the <a href="https://twitter.com/thecrawsover">Twitter</a> for live updates.</p>
@@ -76,7 +78,7 @@ export default function Home() {
         <div className={styles.updates}>
           <h1>😤 SPECIAL APPEARANCES 😤</h1>
           <h2>Summer 2022</h2>
-          <blockquote className="twitter-tweet"><p lang="en" dir="ltr">We are making HISTORY this weekend as we welcome <a href="https://twitter.com/KingJames?ref_src=twsrc%5Etfw">@KingJames</a> to <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> ‼️‼️‼️‼️This will be a day like we’ve seen. Get there early!!!! <a href="https://t.co/u7o0oqlsby">pic.twitter.com/u7o0oqlsby</a></p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1560758708132450304?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
+          <blockquote className="twitter-tweet"><p lang="en" dir="ltr">We are making HISTORY this weekend at <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> !!!!! This will be a day like we’ve NEVER seen <a href="https://twitter.com/KingJames?ref_src=twsrc%5Etfw">@KingJames</a> WILL BE Playing Tomorrow!!!!! It’s O-V-E-R ‼️‼️ get there early. 🎥🎥🎥🎥👀👀 <a href="https://t.co/OlyArkPLqM">pic.twitter.com/OlyArkPLqM</a></p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1560767965825343488?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">First round pick of the 2022 NBA draft, Chicago bulls <a href="https://twitter.com/DalenTerry?ref_src=twsrc%5Etfw">@DalenTerry</a> will be <a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> this weekend to put on a show!</p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1557915199725637632?ref_src=twsrc%5Etfw">August 12, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">🚨🚨BREAKING NEWS 🚨🚨 <a href="https://twitter.com/TheTraeYoung?ref_src=twsrc%5Etfw">@TheTraeYoung</a> <a href="https://twitter.com/DejounteMurray?ref_src=twsrc%5Etfw">@DejounteMurray</a> and John Collins will all be playing tomorrow and ready to put on a show for the city!!!!!! 🥶🥶🥶🥶 doors open at 11:45am at SPU. <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> <a href="https://t.co/Nlxa5iUicC">pic.twitter.com/Nlxa5iUicC</a></p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1553579946588585984?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">The <a href="https://twitter.com/TheNatural_05?ref_src=twsrc%5Etfw">@TheNatural_05</a> coming thru the pro am today to put on a show!!!!!</p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1553769890716139521?ref_src=twsrc%5Etfw">July 31, 2022</a></blockquote> 
