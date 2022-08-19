@@ -53,8 +53,11 @@ export default function Home() {
           /> */}
         </div>
         <div className={styles.location}>
-          <h1 className={styles.admission}>🚨🚨 SPECIAL GUEST ALERT 🚨🚨</h1>
-          <h1 className={styles.admission}>LEBRON JAMES PLAYING 8/20/22</h1>
+          <h1 className={styles.admission}>🚨🚨 8/20/22 SPECIAL GUEST ALERT 🚨🚨</h1>
+          <blockquote className="twitter-tweet"><p lang="en" dir="ltr">LeBron. <br />Dejounte. <br />Paolo. <br />Chet.<br />IT.<br />MarJon.<a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> is live tomorrow on <a href="https://t.co/Pqxh2EPubW">https://t.co/Pqxh2EPubW</a> and the NBA App 🎥</p>&mdash; NBA (@NBA) <a href="https://twitter.com/NBA/status/1560753432750866435?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
+          <h2>
+            GAMES WILL BE STREAMED STARTING 5:30PM ET <a href="https://t.co/vZLRTFPigo">HERE</a>. 
+          </h2>
           <p>
             <b>FREE FOR EVERYONE.</b>
             <br />
