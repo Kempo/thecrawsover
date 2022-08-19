@@ -53,8 +53,13 @@ export default function Home() {
           /> */}
         </div>
         <div className={styles.location}>
-          <h1 className={styles.admission}>🚨🚨 FREE ADMISSION FOR EVERYONE 🚨🚨</h1>
-          <p>No outside food allowed. Food and drinks available in-house.</p>
+          <h1 className={styles.admission}>🚨🚨 SPECIAL GUEST ALERT 🚨🚨</h1>
+          <h1 className={styles.admission}>LEBRON JAMES PLAYING 8/20/22</h1>
+          <p>
+            <b>FREE FOR EVERYONE.</b>
+            <br />
+            No outside food allowed. Food and drinks available in-house.
+          </p>
           <p>Check out the <a href="https://twitter.com/thecrawsover">Twitter</a> for live updates.</p>
           <div className={styles.info}>
             <h1>LOCATION</h1>
