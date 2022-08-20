@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>The CrawsOver Pro-Am League</title>
-        <meta property="og:title" content="The CrawsOver Pro-Am League" />
+        <title>The CrawsOver Pro-Am League by Jamal Crawford</title>
+        <meta property="og:title" content="The CrawsOver Pro-Am League by Jamal Crawford" />
         <meta property="og:image" content="https://pbs.twimg.com/media/E58199kUYAU_NV5?format=jpg&name=large" />
         <meta name="description" content="The CrawsOver Pro-Am League by Jamal Crawford. Games played at Seattle Pacific University featuring NBA and Overseas talent for Summer 2022. Free admission for everyone!" />
         <meta property="og:description" content="The CrawsOver Pro-Am League by Jamal Crawford. Games played at Seattle Pacific University featuring NBA and Overseas talent for Summer 2022. Free admission for everyone!" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@thecrawsover" />
-        <meta name="twitter:title" content="The CrawsOver Pro-Am League" />
+        <meta name="twitter:title" content="The CrawsOver Pro-Am League by Jamal Crawford" />
         <meta name="twitter:description" content="Games played at Seattle Pacific University featuring NBA and Overseas talent for Summer 2022. Free admission for everyone!" />
         <meta name="twitter:image" content="https://thecrawsover.vercel.app/twitter-preview.jpeg" />
         <link rel="icon" href="/favicon.png" />
