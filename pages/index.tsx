@@ -68,7 +68,8 @@ export default function Home() {
           <p>Check out the <a href="https://twitter.com/thecrawsover">Twitter</a> for live updates.</p>
           <div className={styles.info}>
             <h1>LOCATION</h1>
-            <p>Doors open at 11:45AM. Street parking available.</p>
+            <p>First game 1pm. Street parking available.</p>
+            <p>Doors open TBD for 8/20/22</p>
             <a href="https://www.google.com/maps/place/Royal+Brougham+Pavilion/@47.6511405,-122.3627883,17z/data=!3m2!4b1!5s0x549015a7d8662cb5:0xe6a3ad0574e9365c!4m5!3m4!1s0x549015a7d112f3d9:0x1149b3c2a3c003e7!8m2!3d47.6511411!4d-122.3605821">Royal Brougham Pavilion at Seattle Pacific University <br /> (3414 3rd Ave W, Seattle, WA 98119)</a>
           </div>
           <div className={styles.maps}>
