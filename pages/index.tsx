@@ -53,6 +53,8 @@ export default function Home() {
           /> */}
         </div>
         <div className={styles.location}>
+          <h1 className={styles.admission}>8/27 WEEKEND UPDATES</h1>
+          <blockquote className="twitter-tweet"><p lang="en" dir="ltr">Semifinals and Championship this weekend at <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> <br /><br />Saturday: 1:30pm The Unit vs Ball is Life<br /><br />3:00pm Washington’s finest vs The Dream Team <br /><br />Sunday: 1:30pm Top High School Girls Select Game <br /><br />3:00pm: Championship Game come support the last weekend!!</p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1563208272198647812?ref_src=twsrc%5Etfw">August 26, 2022</a></blockquote>
           <h1 className={styles.admission}>🚨🚨 8/20/22 SPECIAL GUEST ALERT 🚨🚨</h1>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">LeBron. <br />Dejounte. <br />Paolo. <br />Chet.<br />IT.<br />MarJon.<a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> is live tomorrow on <a href="https://t.co/Pqxh2EPubW">https://t.co/Pqxh2EPubW</a> and the NBA App 🎥</p>&mdash; NBA (@NBA) <a href="https://twitter.com/NBA/status/1560753432750866435?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 I thought it was gonna be a movie… now it’s HISTORY!!!!!!!!!!!!!!!!!!!! This will be a day like we’ve NEVER SEEN <a href="https://twitter.com/KingJames?ref_src=twsrc%5Etfw">@KingJames</a> WILL BE PLAYING <a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> PRO AM!!!!!!!!!!! It’s O-V-E-R ‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️ <a href="https://t.co/wEmLW8zooq">pic.twitter.com/wEmLW8zooq</a></p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1560749034641375232?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
@@ -68,8 +70,7 @@ export default function Home() {
           <p>Check out the <a href="https://twitter.com/thecrawsover">Twitter</a> for live updates.</p>
           <div className={styles.info}>
             <h1>LOCATION</h1>
-            <p>First game 1pm. Street parking available.</p>
-            <p>Doors open TBD for 8/20/22</p>
+            <p>Street parking available.</p>
             <a href="https://www.google.com/maps/place/Royal+Brougham+Pavilion/@47.6511405,-122.3627883,17z/data=!3m2!4b1!5s0x549015a7d8662cb5:0xe6a3ad0574e9365c!4m5!3m4!1s0x549015a7d112f3d9:0x1149b3c2a3c003e7!8m2!3d47.6511411!4d-122.3605821">Royal Brougham Pavilion at Seattle Pacific University <br /> (3414 3rd Ave W, Seattle, WA 98119)</a>
           </div>
           <div className={styles.maps}>
@@ -77,7 +78,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.updates}>
-          <h1>😤 SPECIAL APPEARANCES 😤</h1>
+          <h1>😤 PAST SPECIAL APPEARANCES 😤</h1>
           <h2>Summer 2022</h2>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">We are making HISTORY this weekend at <a href="https://twitter.com/hashtag/TheCrawsOver?src=hash&amp;ref_src=twsrc%5Etfw">#TheCrawsOver</a> !!!!! This will be a day like we’ve NEVER seen <a href="https://twitter.com/KingJames?ref_src=twsrc%5Etfw">@KingJames</a> WILL BE Playing Tomorrow!!!!! It’s O-V-E-R ‼️‼️ get there early. 🎥🎥🎥🎥👀👀 <a href="https://t.co/OlyArkPLqM">pic.twitter.com/OlyArkPLqM</a></p>&mdash; TheCrawsOver (@thecrawsover) <a href="https://twitter.com/thecrawsover/status/1560767965825343488?ref_src=twsrc%5Etfw">August 19, 2022</a></blockquote>
           <blockquote className="twitter-tweet"><p lang="en" dir="ltr">First round pick of the 2022 NBA draft, Chicago bulls <a href="https://twitter.com/DalenTerry?ref_src=twsrc%5Etfw">@DalenTerry</a> will be <a href="https://twitter.com/thecrawsover?ref_src=twsrc%5Etfw">@thecrawsover</a> this weekend to put on a show!</p>&mdash; 🏁 Jamal Crawford (@JCrossover) <a href="https://twitter.com/JCrossover/status/1557915199725637632?ref_src=twsrc%5Etfw">August 12, 2022</a></blockquote>
@@ -102,7 +103,6 @@ export default function Home() {
           <a href="https://t.co/me5fBznzko?amp=1">Facebook</a>
           <a href="https://www.instagram.com/thecrawsover/">Instagram</a>
         </div>
-        <p>Website by <a href="https://twitter.com/tweetsbychen">@tweetsbychen</a></p>
       </footer>
     </div>
   )
