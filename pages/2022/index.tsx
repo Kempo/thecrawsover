@@ -39,6 +39,7 @@ export default function Page() {
           name="twitter:image"
           content="https://thecrawsover.vercel.app/twitter-preview.jpeg"
         />
+        <meta name="author" content="Aaron Chen" />
         <link rel="icon" href="/favicon.png" />
         <script
           async
