@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
+import Footer from "../app/Footer";
+import Highlights from "../app/Highlights";
 
 export default function Home() {
   return (
@@ -60,16 +62,8 @@ export default function Home() {
           />
         </div>
       </main>
-      <footer className={styles.footer}>
-        <p className={styles.callout}>
-          <i>The best summer basketball league in the United States.</i>
-        </p>
-        <div className={styles.links}>
-          <a href="https://twitter.com/thecrawsover">Twitter</a>
-          <a href="https://t.co/me5fBznzko?amp=1">Facebook</a>
-          <a href="https://www.instagram.com/thecrawsover/">Instagram</a>
-        </div>
-      </footer>
+      <Highlights />
+      <Footer />
     </div>
   );
 }

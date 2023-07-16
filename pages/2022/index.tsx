@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/Home.module.scss";
+import Footer from "../../app/Footer";
+import Highlights from "../../app/Highlights";
 
 export default function Page() {
   return (
@@ -260,58 +262,9 @@ export default function Page() {
             </a>
           </blockquote>
         </div>
-        <div className={styles.highlights}>
-          <h1>🔥🔥 PAST HIGHLIGHTS 🔥🔥</h1>
-          <div className={styles.videos}>
-            <iframe
-              width="95%"
-              height="315"
-              src="https://www.youtube.com/embed/g1BUvUxKw4c"
-              title="YouTube video player"
-              frameBorder={0}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-            <iframe
-              width="95%"
-              height="315"
-              src="https://www.youtube.com/embed/Ug-Vy5vt77Q"
-              title="YouTube video player"
-              frameBorder={0}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-            <iframe
-              width="95%"
-              height="315"
-              src="https://www.youtube.com/embed/q7QfBOTYKLA"
-              title="YouTube video player"
-              frameBorder={0}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-            <iframe
-              width="95%"
-              height="315"
-              src="https://www.youtube.com/embed/0TNwtG8-Rhc"
-              title="YouTube video player"
-              frameBorder={0}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+        <Highlights />
       </main>
-      <footer className={styles.footer}>
-        <p className={styles.callout}>
-          <i>The best summer basketball league in the United States.</i>
-        </p>
-        <div className={styles.links}>
-          <a href="https://twitter.com/thecrawsover">Twitter</a>
-          <a href="https://t.co/me5fBznzko?amp=1">Facebook</a>
-          <a href="https://www.instagram.com/thecrawsover/">Instagram</a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
