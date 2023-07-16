@@ -8,8 +8,17 @@ export default function Highlights() {
         <iframe
           width="95%"
           height="315"
+          src="https://www.youtube.com/embed/Mr0Hmd8WCvc"
+          title="Lebron James and Jayson Tatum highlights"
+          frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="95%"
+          height="315"
           src="https://www.youtube.com/embed/g1BUvUxKw4c"
-          title="YouTube video player"
+          title="Paolo Banchero and Chet Holmgren highlights"
           frameBorder={0}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -18,7 +27,7 @@ export default function Highlights() {
           width="95%"
           height="315"
           src="https://www.youtube.com/embed/Ug-Vy5vt77Q"
-          title="YouTube video player"
+          title="Malachi Flynn highlights"
           frameBorder={0}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -27,7 +36,7 @@ export default function Highlights() {
           width="95%"
           height="315"
           src="https://www.youtube.com/embed/q7QfBOTYKLA"
-          title="YouTube video player"
+          title="Isaiah Thomas highlights"
           frameBorder={0}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -36,7 +45,7 @@ export default function Highlights() {
           width="95%"
           height="315"
           src="https://www.youtube.com/embed/0TNwtG8-Rhc"
-          title="YouTube video player"
+          title="Kevin Porter Jr. and Dejounte Murray highlights"
           frameBorder={0}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
