@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/Home.module.scss";
-import Footer from "../../app/Footer";
-import Highlights from "../../app/Highlights";
+import Footer from "../../components/Footer";
+import Highlights from "../../components/Highlights";
 
 export default function Page() {
   return (
@@ -265,7 +265,6 @@ export default function Page() {
         </div>
         <Highlights />
       </main>
-      <Footer />
     </div>
   );
 }
