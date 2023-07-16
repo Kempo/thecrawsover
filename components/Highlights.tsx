@@ -2,11 +2,11 @@ import styles from "../styles/Home.module.scss";
 
 export default function Highlights() {
   return (
-    <div className={styles.highlights}>
-      <h1>🔥🔥 PAST HIGHLIGHTS 🔥🔥</h1>
-      <div className={styles.videos}>
+    <div className="flex flex-col items-center">
+      <h1 className="text-2xl font-bold mb-2">🔥🔥 PAST HIGHLIGHTS 🔥🔥</h1>
+      <div className="flex flex-col gap-4 md:w-1/2 w-full">
         <iframe
-          width="95%"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/Mr0Hmd8WCvc"
           title="Lebron James and Jayson Tatum highlights"
@@ -15,7 +15,7 @@ export default function Highlights() {
           allowFullScreen
         ></iframe>
         <iframe
-          width="95%"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/g1BUvUxKw4c"
           title="Paolo Banchero and Chet Holmgren highlights"
@@ -24,7 +24,7 @@ export default function Highlights() {
           allowFullScreen
         ></iframe>
         <iframe
-          width="95%"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/Ug-Vy5vt77Q"
           title="Malachi Flynn highlights"
@@ -33,7 +33,7 @@ export default function Highlights() {
           allowFullScreen
         ></iframe>
         <iframe
-          width="95%"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/q7QfBOTYKLA"
           title="Isaiah Thomas highlights"
@@ -42,7 +42,7 @@ export default function Highlights() {
           allowFullScreen
         ></iframe>
         <iframe
-          width="95%"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/0TNwtG8-Rhc"
           title="Kevin Porter Jr. and Dejounte Murray highlights"
