@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <link rel="icon" href="/favicon.png" />
         <title>The CrawsOver Pro-Am League by Jamal Crawford</title>
       </Head>
       <main className={styles.main}>
