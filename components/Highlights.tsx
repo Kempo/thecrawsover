@@ -4,7 +4,7 @@ export default function Highlights() {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl font-bold mb-2">🔥🔥 PAST HIGHLIGHTS 🔥🔥</h1>
-      <div className="flex flex-col gap-4 md:w-1/2 w-full">
+      <div className="flex flex-col justify-center gap-4 md:w-1/2 w-full">
         <iframe
           width="100%"
           height="315"

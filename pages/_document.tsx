@@ -24,8 +24,6 @@ export default class MyDocument extends Document {
           `,
             }}
           />
-        </Head>
-        <Head>
           <meta
             property="og:title"
             content="The CrawsOver Pro-Am League by Jamal Crawford"

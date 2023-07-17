@@ -5,11 +5,11 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div className="h-screen">
       <Navigation />
       <Component {...pageProps} />
       <Footer />
-    </>
+    </div>
   );
 }
 export default MyApp;
