@@ -6,14 +6,14 @@ export default function Navigation() {
       <div className="flex flex-row gap-4 justify-center">
         <div>
           <p>
-            <Link href="/">Home</Link>
+            <Link href="/">Summer 2023</Link> (current)
           </p>
         </div>
-        {/* <div>
+        <div>
           <p>
-            <Link href="https://shop.thecrawsoverseattle.com/">Shop</Link>
+            <Link href="/2022">Summer 2022</Link>
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );
