@@ -13,13 +13,19 @@ export default function Page() {
       <main className={styles.main}>
         <div className={styles.gallery}>
           <Image
-            src="https://pbs.twimg.com/media/E66hLXgUcAAw4Qi?format=jpg&name=large"
+            src="https://pbs.twimg.com/media/FWol9PFVUAcHFRs?format=jpg&name=large"
+            alt="The CrawsOver Poster"
+            width={780}
+            height={976}
+          />
+          <Image
+            src="https://pbs.twimg.com/media/FXAJIR8VQAEDjW2?format=jpg&name=large"
             alt="The CrawsOver Schedule"
             width={780}
             height={976}
           />
           <Image
-            src="https://pbs.twimg.com/media/E5zdK1AUYAA9qNv?format=jpg&name=large"
+            src="https://pbs.twimg.com/media/FX4Ff7YUIAEXmTg?format=jpg&name=large"
             alt="The CrawsOver Roster"
             width={780}
             height={976}

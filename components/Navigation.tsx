@@ -6,12 +6,24 @@ export default function Navigation() {
       <div className="flex flex-row gap-4 justify-center">
         <div>
           <p>
-            <Link href="/">Summer 2023</Link> (current)
+            <Link href="/">SUMMER 2023</Link>
           </p>
         </div>
         <div>
           <p>
-            <Link href="/2022">Summer 2022</Link>
+            <Link href="/2022">SUMMER 2022</Link>
+          </p>
+        </div>
+        <div>
+          <p>
+            <Link href="/2021">SUMMER 2021</Link>
+          </p>
+        </div>
+        <div>
+          <p>
+            <Link href="https://shop.thecrawsoverseattle.com/">
+              ONLINE SHOP
+            </Link>
           </p>
         </div>
       </div>

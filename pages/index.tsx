@@ -15,6 +15,12 @@ export default function Home() {
         <div className={styles.gallery}>
           <Image
             src="https://pbs.twimg.com/media/F0z74OBaQAACJKR?format=jpg&name=large"
+            alt="The CrawsOver Main Poster"
+            width={780}
+            height={976}
+          />
+          <Image
+            src="https://pbs.twimg.com/media/F03ObvXaYAADW_K?format=jpg&name=large"
             alt="The CrawsOver Schedule"
             width={780}
             height={976}
@@ -29,7 +35,7 @@ export default function Home() {
       </main>
       <Highlights />
       <div className="mt-4 text-center text-2xl">
-        <Link href="https://shop.thecrawsoverseattle.com/">Online Shop</Link>
+        <Link href="https://shop.thecrawsoverseattle.com/">ONLINE SHOP</Link>
       </div>
       <p className="text-center mt-4 text-gray-500">
         Official merchandise coming soon.
