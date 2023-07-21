@@ -24,6 +24,11 @@ export default class MyDocument extends Document {
           `,
             }}
           />
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6801568729476079"
+            crossOrigin="anonymous"
+          ></script>
           <meta
             property="og:title"
             content="The CrawsOver Pro-Am League by Jamal Crawford"
