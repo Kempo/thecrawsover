@@ -8,7 +8,7 @@ export default function Page() {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        <title>The CrawsOver Pro-Am League by Jamal Crawford</title>
+        <title>The CrawsOver Pro-Am League by Jamal Crawford - 2022</title>
       </Head>
       <main className={styles.main}>
         <div className={styles.gallery}>
