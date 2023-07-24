@@ -5,7 +5,7 @@ export default function FAQ() {
     <div className="min-h-screen">
       <Head>
         <link rel="icon" href="/favicon.png" />
-        <title>The CrawsOver Pro-Am League by Jamal Crawford - 2022</title>
+        <title>The CrawsOver Pro-Am League by Jamal Crawford - FAQ</title>
       </Head>
       <h1 className="text-xl font-bold text-center underline underline-offset-4 mb-6">
         Frequently Asked Questions
