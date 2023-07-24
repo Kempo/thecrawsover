@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/Home.module.scss";
 import Highlights from "../../components/Highlights";
+import Script from "next/script";
 
 export default function Page() {
   return (
@@ -33,6 +34,7 @@ export default function Page() {
         </div>
         <div className={styles.location}>
           <h1 className={styles.admission}>8/27 WEEKEND UPDATES</h1>
+          <Script async src="https://platform.twitter.com/widgets.js" />
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Semifinals and Championship this weekend at{" "}

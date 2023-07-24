@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Script from "next/script";
 
-const TAG_ID = 'G-4MLRQX9KKP';
+const TAG_ID = "G-4MLRQX9KKP";
 
 export default class MyDocument extends Document {
   render() {
@@ -61,11 +62,6 @@ export default class MyDocument extends Document {
           />
           <meta name="author" content="Aaron Chen" />
           <link rel="icon" href="/favicon.png" />
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charSet="utf-8"
-          ></script>
         </Head>
         <body>
           <Main />

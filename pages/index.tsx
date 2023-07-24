@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from "../styles/Home.module.scss";
 import Highlights from "../components/Highlights";
 import Link from "next/link";
+import Archive from "../components/Archive";
+import Shop from "../components/Shop";
 
 export default function Home() {
   return (
@@ -34,12 +36,8 @@ export default function Home() {
         </div>
       </main>
       <Highlights />
-      <div className="mt-4 text-center text-2xl">
-        <Link href="https://shop.thecrawsoverseattle.com/">ONLINE SHOP</Link>
-      </div>
-      <p className="text-center mt-4 text-gray-500">
-        Official merchandise coming soon.
-      </p>
+      <Shop />
+      <Archive />
     </div>
   );
 }

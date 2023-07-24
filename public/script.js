@@ -27,9 +27,9 @@
       storefrontAccessToken: "728c988275dbba238ba7fdc0654d9af2",
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent("product", {
-        id: "8429244350746",
-        node: document.getElementById("product-component-1689555067271"),
+      ui.createComponent("collection", {
+        id: "452342907162",
+        node: document.getElementById("collection-component-1690158830520"),
         moneyFormat: "%24%7B%7Bamount%7D%7D",
         options: {
           product: {
@@ -39,6 +39,7 @@
                   "max-width": "calc(25% - 20px)",
                   "margin-left": "20px",
                   "margin-bottom": "50px",
+                  width: "calc(25% - 20px)",
                 },
               },
               button: {
@@ -51,10 +52,6 @@
                 },
                 "border-radius": "2px",
               },
-            },
-            contents: {
-              button: false,
-              buttonWithQuantity: true,
             },
             text: {
               button: "Add to cart",

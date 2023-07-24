@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="mt-4 text-center p-8 border border-solid">
+    <footer className="mt-4 text-center p-8 border-t bg-gray-50">
       <p className="text-gray-400 mt-0 mb-2">
         <i>The best summer basketball league in the United States.</i>
       </p>

@@ -10,7 +10,7 @@ export default function Shop() {
       </Head>
       <h1 className="text-2xl font-bold text-center">Online Shop</h1>
       <div className="flex justify-center">
-        <div id="product-component-1689555067271"></div>
+        <div id="collection-component-1690158830520"></div>
       </div>
     </div>
   );
