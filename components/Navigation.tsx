@@ -10,9 +10,9 @@ export default function Navigation() {
         <p>
           <Link href="/faq">FAQ</Link>
         </p>
-        <p>
+        {/* <p>
           <Link href="https://shop.thecrawsoverseattle.com/">ONLINE MERCH</Link>
-        </p>
+        </p> */}
       </div>
     </div>
   );

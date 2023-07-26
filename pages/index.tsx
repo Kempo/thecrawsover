@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </main>
       <Highlights />
-      <Shop />
+      {/* <Shop /> */}
       <Archive />
     </div>
   );
