@@ -12,7 +12,7 @@ export default function Page() {
         <title>The CrawsOver Pro-Am League by Jamal Crawford - 2022</title>
       </Head>
       <main className={styles.main}>
-        <div className={styles.gallery}>
+        <div className="flex flex-col items-center gap-2">
           <Image
             src="https://pbs.twimg.com/media/FWol9PFVUAcHFRs?format=jpg&name=large"
             alt="The CrawsOver Poster"

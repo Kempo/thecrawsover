@@ -7,10 +7,10 @@ export default function Page() {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        <title>The CrawsOver Pro-Am League by Jamal Crawford - 2022</title>
+        <title>The CrawsOver Pro-Am League by Jamal Crawford - 2021</title>
       </Head>
       <main className={styles.main}>
-        <div className={styles.gallery}>
+        <div className="flex flex-col items-center gap-2">
           <Image
             src="https://pbs.twimg.com/media/E66hLXgUcAAw4Qi?format=jpg&name=large"
             alt="The CrawsOver Schedule"
