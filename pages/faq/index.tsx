@@ -1,8 +1,9 @@
 import Head from "next/head";
+import Signup from "../../components/Signup";
 
 export default function FAQ() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen mb-12">
       <Head>
         <link rel="icon" href="/favicon.png" />
         <title>
@@ -13,7 +14,7 @@ export default function FAQ() {
       <h1 className="text-xl font-bold text-center underline underline-offset-4 mb-6">
         Frequently Asked Questions
       </h1>
-      <div className="mx-8 mb-8">
+      <div className="m-8">
         <ul className="flex flex-col gap-6">
           <li>
             <h2 className="text-xl font-bold">Is The CrawsOver free?</h2>
@@ -33,22 +34,20 @@ export default function FAQ() {
           </li>
           <li>
             <h2 className="text-xl font-bold">Who plays at The CrawsOver?</h2>
-            <p>
-              We host a variety of players from around the world, from NBA to
-              overseas, college and high school talent. <br /> Notable guests
-              the past summers include:
-              <ul className="ml-4 mt-4 font-bold">
-                <li>Kyrie Irving</li>
-                <li>Lebron James</li>
-                <li>Jayson Tatum</li>
-                <li>Isaiah Thomas</li>
-                <li>Nate Robinson</li>
-                <li>Dejounte Murray</li>
-                <li>Paolo Banchero</li>
-                <li>Chet Holmgren</li>
-                <li>And many more...</li>
-              </ul>
-            </p>
+            We host a variety of players from around the world, from NBA to
+            overseas, college and high school talent. <br /> Notable guests the
+            past summers include:
+            <ul className="ml-4 mt-4 font-bold">
+              <li>Kyrie Irving</li>
+              <li>Lebron James</li>
+              <li>Jayson Tatum</li>
+              <li>Isaiah Thomas</li>
+              <li>Nate Robinson</li>
+              <li>Dejounte Murray</li>
+              <li>Paolo Banchero</li>
+              <li>Chet Holmgren</li>
+              <li>And many more...</li>
+            </ul>
           </li>
           <li>
             <h2 className="text-xl font-bold">

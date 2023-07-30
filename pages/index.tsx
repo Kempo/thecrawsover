@@ -5,6 +5,7 @@ import Highlights from "../components/Highlights";
 import Link from "next/link";
 import Archive from "../components/Archive";
 import Shop from "../components/Shop";
+import Signup from "../components/Signup";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
           />
         </div>
       </main>
+      <Signup />
       <Highlights />
       {/* <Shop /> */}
       <Archive />
