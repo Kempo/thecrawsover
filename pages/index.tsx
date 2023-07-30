@@ -6,6 +6,7 @@ import Link from "next/link";
 import Archive from "../components/Archive";
 import Shop from "../components/Shop";
 import Signup from "../components/Signup";
+import Current from "../components/Current";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
       </main>
       <Signup />
+      <Current />
       <Highlights />
       {/* <Shop /> */}
       <Archive />

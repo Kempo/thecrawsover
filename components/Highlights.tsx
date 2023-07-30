@@ -1,17 +1,8 @@
 export default function Highlights() {
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-2xl font-bold mb-2">🔥🔥 HIGHLIGHTS 🔥🔥</h1>
+      <h1 className="text-2xl font-bold mb-2">🔥 PAST HIGHLIGHTS 🔥</h1>
       <div className="flex flex-col justify-center gap-4 md:w-1/2 w-full">
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/4itiBP2B6l8"
-          title="YouTube video player"
-          frameBorder={0}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
         <iframe
           width="100%"
           height="315"
