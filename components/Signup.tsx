@@ -9,6 +9,7 @@ export default function Signup() {
       </h1>
       <Link
         className="text-lg border rounded p-4 bg-slate-950"
+        target="_blank"
         href="https://docs.google.com/forms/d/e/1FAIpQLScJj1jl-JW70tSNbfnq77xt_FUCyX0O_fCzj0uEUthD6YzrbQ/viewform"
       >
         EVENTS SIGNUP

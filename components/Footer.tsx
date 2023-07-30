@@ -13,7 +13,10 @@ export default function Footer() {
       </div>
       <div className="text-center text-gray-600 my-4">/</div>
       <div className="text-center">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScJj1jl-JW70tSNbfnq77xt_FUCyX0O_fCzj0uEUthD6YzrbQ/viewform">
+        <Link
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScJj1jl-JW70tSNbfnq77xt_FUCyX0O_fCzj0uEUthD6YzrbQ/viewform"
+        >
           Events Signup
         </Link>
       </div>
