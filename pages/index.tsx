@@ -40,6 +40,12 @@ export default function Home() {
       <Highlights />
       {/* <Shop /> */}
       <Archive />
+      <div className="text-center">
+        <h1 className="text-2xl font-bold mb-2">ABOUT US</h1>
+        <Link className="" href="/faq">
+          OUR FAQ
+        </Link>
+      </div>
     </div>
   );
 }
